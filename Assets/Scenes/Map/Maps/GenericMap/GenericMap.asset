@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c30cdf25ca9fd046b3d1d51675194c5, type: 3}
+  m_Name: GenericMap
+  m_EditorClassIdentifier: 
+  collision: {fileID: 5318948929210965717, guid: ee6bf37aae9a1ff419df3aed206e3a4b, type: 3}
+  platforms: {fileID: 2702245097765762515, guid: 7cdcfd102e16df94c85350eed850eb50, type: 3}
+  AStarGraph: {fileID: 4900000, guid: e2a1dd5686445024abaded2c65ebc780, type: 3}
+  attackerSpawn: {x: 3, y: -1, z: 0}
+  defenderSpawn: {x: 31.5, y: 2, z: 0}
+  minXBound: 0
+  maxXBound: 41
